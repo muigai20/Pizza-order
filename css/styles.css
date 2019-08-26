@@ -1,0 +1,7 @@
+.jumbotron{
+  background-image: url('../images/ppp.png');
+  background-size: cover;
+color: white;
+height: 50vh;
+font-size: 50px;
+}
