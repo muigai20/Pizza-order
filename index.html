@@ -1,21 +1,73 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Pizza Order</title>
-    <link rel="icon" type="images/icon.png" href="images/icon.png">
-    <link rel="stylesheet" href="./css/mdb.css" type="text/css">
-<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet"  type="text/css" href="css/styles.css">
-  </head>
-  <body>
-    <div class="container">
-      <div class="jumbotron text-center ">
-        <h1>Pizza Order</h1>
 
-      </div>
+<head>
+  <meta charset="utf-8">
+  <title>Pizza Order</title>
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Sigmar+One&display=swap" rel="stylesheet">
+  <link rel="icon" type="images/icon.png" href="images/icon.png">
+  <link rel="stylesheet" type="text/css" href="css/mdb.css" type="text/css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron text-center ">
+      <h1>Pizza Order</h1>
+      <form class="my-5">
+        <div class='row'>
+
+          <!--PERSONAL-->
+          <div class="col-3 text-center">
+            <div class="custom-control custom-radio">
+              <input class="custom-control-input" type="radio" name="selectSize" id="personal" value="Personal" required>
+              <label class="custom-control-label" for="personal">
+                <img id='personalPic' class='img-fluid' src='images/pizza2.png' alt='personal size pizza, $6.00'>
+                <div>Personal ($6.00)</div>
+              </label>
+            </div>
+          </div>
+          <!--/PERSONAL-->
+
+          <!--MEDIUM-->
+          <div class="col-3 text-center">
+            <div class="custom-control custom-radio">
+              <input class="custom-control-input" type="radio" name="selectSize" id="medium" value="Medium">
+              <label class="custom-control-label" for="medium">
+                <img id='mediumPic' class='img-fluid' src='images/pizza2.png' alt='medium size pizza, $10.00'>
+                <div>Medium ($10.00)</div>
+              </label>
+            </div>
+          </div>
+          <!--/MEDIUM-->
+<br><br>
+          <!--LARGE-->
+          <div class="col-3 text-center">
+            <div class="custom-control custom-radio">
+              <input class="custom-control-input" type="radio" name="selectSize" id="large" value="Large">
+              <label class="custom-control-label" for="large">
+                <img id='largePic' class='img-fluid' src='images/pizza2.png' alt='large size pizza, $14.00'>
+                <div>Large ($14.00)</div>
+              </label>
+            </div>
+          </div>
+          <!--/LARGE-->
+
+
+        </div>
+
+      </form>
+
+
+
+
 
     </div>
 
-  </body>
+  </div>
+
+</body>
+
 </html>

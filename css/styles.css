@@ -1,7 +1,35 @@
+body{
+  background-image: url("../images/imge.jpeg");
+    background-size: cover;
+  color: white;
+  height: 100vh;
+  background-repeat: repeat;
+  background-position: center;
+}
 .jumbotron{
-  background-image: url('../images/ppp.png');
+background-image: url("../images/ppp.png");
   background-size: cover;
 color: white;
-height: 50vh;
+height: 70vh;
 font-size: 50px;
+font-family: 'Sigmar One', cursive;
+}
+#personalPic{
+
+  width: 9vw;
+}
+#mediumPic{
+
+  width: 13vw;
+}
+#largePic{
+
+  width: 17vw;
+}
+.custom-control-label{
+    font-size: 25px;
+    font-family: 'Indie Flower', cursive;
+}
+.row{
+  margin-left:10%;
 }
