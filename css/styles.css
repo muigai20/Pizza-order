@@ -1,9 +1,7 @@
 body{
-  background-image: url("../images/pexel2.jpeg");
+  background-image: url("../images/juju2.jpeg");
     background-size: cover;
   color: white;
-  height: 100vh;
-  background-repeat: repeat;
   background-position: center;
 }
 .jumbotron{
@@ -30,6 +28,10 @@ font-family: 'Sigmar One', cursive;
     font-size: 25px;
     font-family: 'Indie Flower', cursive;
 }
+.card-title{
+  color:black;
+}
+
 .row{
   margin-left:10%;
 }
