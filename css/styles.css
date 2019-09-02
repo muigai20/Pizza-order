@@ -41,3 +41,9 @@ font-family: 'Sigmar One', cursive;
   font-family: 'Sigmar One', cursive;
 
 }
+.customizeBox {
+  border: 1px solid skyblue;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px 3px skyblue;
+  background-color: black;
+}
