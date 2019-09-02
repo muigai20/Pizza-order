@@ -1,8 +1,9 @@
 body{
-  background-image: url("../images/juju2.jpeg");
+  background-image: url("../images/pexel.jpeg");
     background-size: cover;
   color: white;
   background-position: center;
+  opacity: 1;
 }
 .jumbotron{
 background-image: url("../images/ppp.png");
