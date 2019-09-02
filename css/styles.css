@@ -5,13 +5,12 @@ body{
   background-position: center;
   opacity: 1;
 }
-.jumbotron{
-background-image: url("../images/ppp.png");
-  background-size: cover;
-color: white;
-height: 70vh;
+.title{
+
+color: black;
 font-size: 50px;
 font-family: 'Sigmar One', cursive;
+text-align: center;
 }
 #personalPic{
 
@@ -58,7 +57,7 @@ font-family: 'Sigmar One', cursive;
   box-shadow: 5px 5px 15px #333;
 }
 .ingredients {
-  color: darkblue;
+  color: salmon;
   font-style: oblique;
   font-size: 85%;
 }
